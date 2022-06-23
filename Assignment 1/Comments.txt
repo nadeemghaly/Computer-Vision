@@ -1,0 +1,9 @@
+As we can see 
+
+For image 10.jpg which has the quantization effect with a difference of 10, the number of shades n the image is less therefore we can see the transition of shades in the backgroun is less smooth than it used to be
+
+For image 20.jpg which has the quantization effect with a difference of 20, the number of shades is less than the previous (10.png). The details visible in this image has dropped significantly when compared to the previous image
+
+For image 30.jpg which has the quantization effect with a difference of 30, the number of shades decreased furthermore. alot of details in the hair colors were loss and overall the picture looks irritating to the eye
+
+All in all, the 10.png image is the best version as it would take less space on the hard disk when compared to the original image. 
