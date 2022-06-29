@@ -19,3 +19,10 @@ Equalizing image was done on a Black and White image in the follow sequence:
 Optimal Segmenting on the image was done as follows:
   1. GetThreshhold: where we calculate the average of the grey levels, then assign the average to this then recalculate again till the code converges
   2. SegmentOptimalThresholding: we either assign 0 or 255 depending if the grey level of the pixel is over or under the treshhold
+
+## Assignment 3:
+Here we apply Image Segmentation using K-Means clustering on colored and BW images which is done by:
+  1. Finding the closest center to each pixel and assign it to this center
+  2. Calculate new centers by dividing the sum of the pixels assigned to each cluster and dividing by their number
+  3. If centers didnot change from last iteration, this means that the code converged and the centers are chosen perfectly
+  4. change the value of each pixel with the center closest to it
